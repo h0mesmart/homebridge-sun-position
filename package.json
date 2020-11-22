@@ -1,6 +1,6 @@
 {
   "name": "homebridge-sun-position",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Homebridge plugin to expose the position of the sun for automation",
   "license": "ISC",
   "keywords": [
@@ -8,14 +8,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/keybuk/homebridge-sun-position.git"
+    "url": "git://github.com/h0mesmart/homebridge-sun-position.git"
   },
   "bugs": {
-    "url": "http://github.com/keybuk/homebridge-sun-position/issues"
+    "url": "http://github.com/h0mesmart/homebridge-sun-position/issues"
   },
   "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
+    "node": "^14.15.0",
+    "homebridge": "^1.1.0"
   },
   "dependencies": {
     "suncalc": "^1.8.0"

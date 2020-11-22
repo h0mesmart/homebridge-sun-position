@@ -1,0 +1,29 @@
+{
+    "pluginAlias": "SunPosition",
+    "pluginType": "accessory",
+    "singular": true,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string",
+          "required": true
+        },
+        "location": {
+            "title": "Location to compute sun position from",
+            "type": "object",
+            "properties": {
+                "lat": {
+                    "title": "Latitude",
+                    "type": "number"
+                },
+                "long": {
+                    "title": "Longitude",
+                    "type": "number"
+                }
+            }
+        }
+      }
+    }
+  }
